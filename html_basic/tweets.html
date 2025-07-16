@@ -2,38 +2,57 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Embedded Tweet</title>
+    <title>Tweets Page</title>
   </head>
   <body>
-    <h1>My Favorite Tweet</h1>
+    <header>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tweets.html">Tweets</a></li>
+      </ul>
+    </header>
 
-    <p>
-      Below is a tweet I really like. Embedding tweets is easy and adds
-      interactivity and social proof to your webpage!
-    </p>
+    <main>
+      <article>
+        <h1>My Favorite Tweet</h1>
 
-    <!-- Embedded tweet -->
-    <blockquote class="twitter-tweet">
-      <p lang="en" dir="ltr">
-        When you're learning to code and finally fix that one bug after hours of
-        frustration 😅<br /><br />#DevLife #CodingHumor
-        <a
-          href="https://twitter.com/engineerdeets/status/1704502554390788265?ref_src=twsrc%5Etfw"
-          >September 20, 2023</a
-        >
+        <p>
+          Below is a tweet I really like. Embedding tweets is easy and adds
+          interactivity and social proof to your webpage!
+        </p>
+
+        <blockquote class="twitter-tweet">
+          <p lang="en" dir="ltr">
+            When you're learning to code and finally fix that one bug after
+            hours of frustration 😅<br /><br />#DevLife #CodingHumor
+            <a
+              href="https://twitter.com/engineerdeets/status/1704502554390788265?ref_src=twsrc%5Etfw"
+              >September 20, 2023</a
+            >
+          </p>
+          &mdash; Engineer Deets (@engineerdeets)
+          <a
+            href="https://twitter.com/engineerdeets/status/1704502554390788265?ref_src=twsrc%5Etfw"
+            >September 20, 2023</a
+          >
+        </blockquote>
+        <script
+          async
+          src="https://platform.twitter.com/widgets.js"
+          charset="utf-8"
+        ></script>
+      </article>
+
+      <aside>
+        <p>placeholder to add comment thread later</p>
+      </aside>
+    </main>
+
+    <footer>
+      <p>
+        Made by Elvis Okoth -
+        <a href="https://github.com/Code-with-Elvis" target="_blank">here</a>.
       </p>
-      &mdash; Engineer Deets (@engineerdeets)
-      <a
-        href="https://twitter.com/engineerdeets/status/1704502554390788265?ref_src=twsrc%5Etfw"
-        >September 20, 2023</a
-      >
-    </blockquote>
-    <script
-      async
-      src="https://platform.twitter.com/widgets.js"
-      charset="utf-8"
-    ></script>
-
-    <p><a href="index.html">← Back to Homepage</a></p>
+    </footer>
   </body>
 </html>
